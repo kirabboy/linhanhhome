@@ -1,0 +1,69 @@
+.card-login .card-header img {
+    width: 50%;
+}
+
+.row-login {
+    height: 100vh;
+}
+
+@media only screen and (min-width: 600px) {
+    .card-block {
+        padding: 10px 100px;
+        top: 17.5%;
+    }
+}
+
+.card-block {
+    position: absolute;
+}
+
+@media only screen and (max-width: 600px) {
+    .card-block {
+        padding: 10px 5px;
+        top: 17.5%;
+    }
+}
+
+.card-content {
+    padding: 10px 0px
+}
+
+.card-block .card-login .input-group-prepend .input-group-text {
+    justify-content: center;
+    width: 50px;
+}
+
+.card-block .card-login i {
+    color: #009c7e;
+}
+
+.btn-main {
+    color: #fff;
+    background-color: #009c7e;
+    border-color: #009c7e;
+}
+
+#particles-js {
+    height: 100vh;
+}
+
+.carousel-login {
+    background-color: #eee;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.carousel-login .carousel-indicators li {
+    background-color: #009d7d;
+    width: 50px;
+    height: 5px;
+}
+
+.carousel-login .carousel-indicators {
+    bottom: -100px;
+}
+
+.carousel-login .carousel-item.active img {
+    margin: auto;
+}

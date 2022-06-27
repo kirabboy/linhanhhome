@@ -1,0 +1,148 @@
+.building-process-bar {
+    width: 28%;
+}
+
+.building-room-status-bar {
+    width: 70%;
+    overflow-x: auto;
+}
+
+.building-room-status-bar button {
+    width: max-content;
+}
+
+.building-room-status-bar .nav {
+    flex-wrap: nowrap;
+}
+
+::-webkit-scrollbar {
+    height: 7px;
+    /* height of horizontal scrollbar ← You're missing this */
+    width: 4px;
+    /* width of vertical scrollbar */
+    border: 1px solid #d5d5d5;
+}
+
+
+/* Track */
+
+ ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+    height: 10px;
+}
+
+.progress-bar {
+    font-size: 9px;
+}
+
+
+/* Handle */
+
+ ::-webkit-scrollbar-thumb {
+    background: grey;
+    border-radius: 10px;
+    height: 10px;
+}
+
+
+/* Handle on hover */
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: #00642d;
+}
+
+.border-danger.selected,
+.border.border-danger:hover,
+.border.border-danger:focus {
+    background-color: #dc3545 !important;
+    color: #fff !important;
+}
+
+.border-warning.selected,
+.border.border-warning:hover,
+.border.border-warning:focus {
+    background-color: #ffc107 !important;
+    color: #fff !important;
+}
+
+.border-success.selected,
+.border.border-success:hover,
+.border.border-success:focus {
+    background-color: #198754 !important;
+    color: #fff !important;
+}
+
+.border-secondary.selected,
+.border.border-secondary:hover,
+.border.border-secondary:focus {
+    background-color: #6c757d !important;
+    color: #fff !important;
+}
+
+.table-create-contract input {
+    text-align: right;
+}
+
+.panel-default>.panel-heading {
+    color: #333;
+    background-color: #ddd;
+    border-color: #e4e5e7;
+    padding: 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.panel-default>.panel-heading a {
+    display: block;
+    color: #56bbb5;
+    font-weight: 600;
+    padding: 10px 15px;
+}
+
+.panel-default>.panel-heading a:after {
+    content: "";
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    float: right;
+    transition: transform .25s linear;
+    -webkit-transition: -webkit-transform .25s linear;
+}
+
+.panel-default>.panel-heading a[aria-expanded="true"] {
+    background-color: #eee;
+}
+
+.panel-default>.panel-heading a[aria-expanded="true"]:after {
+    content: "\2212";
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.panel-default>.panel-heading a[aria-expanded="false"]:after {
+    content: "\002b";
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.panel-default .panel-body {
+    border: 1px solid #ddd;
+    padding: 5px;
+}
+
+.panel-group .panel-default {
+    margin-top: 20px;
+}
+
+.btn-edit-service-detail {
+    cursor: pointer;
+}

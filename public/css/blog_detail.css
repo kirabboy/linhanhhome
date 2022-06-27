@@ -1,0 +1,335 @@
+.room_info .room_des p{
+    line-height: 26px;
+}
+.detail-home{
+    margin: 80px 0;
+}
+body {
+    margin: 0px auto;
+    background-color: #f6f5f2;
+    font-size: 16px;
+    width: 100%;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1440px;
+    }
+    .room_info {
+        min-height: 226px;
+    }
+}
+
+.box-gallery {
+    margin-bottom: 30px;
+}
+
+.name_home {
+    font-size: 32px;
+    color: #333333;
+    letter-spacing: 0;
+    -ms-flex-preferred-size: 800px;
+    flex-basis: 800px;
+    font-weight: 700;
+}
+
+.title-detail {
+    display: flex;
+    justify-content: space-between;
+}
+
+.share_btn .share_item {
+    align-items: center;
+    padding: 8px 16px;
+    background: #4877f8;
+    border-radius: 28px;
+    height: 40px;
+    color: #fff;
+}
+
+.icon-external:before {
+    content: "\e967";
+    font-family: FontAwesome;
+}
+
+.room_info {
+    min-width: 226px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 32px;
+    padding-right: 32px;
+    background-color: #ffffff;
+    padding-top: 32px;
+    padding-bottom: 24px;
+    border-radius: 20px;
+    margin-top: 32px;
+}
+
+.title_info {
+    align-items: center;
+    background: #f6f7f9;
+    padding-inline: 20px;
+    height: 50px;
+    border-radius: 24px;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    display: flex;
+}
+
+.title_info .title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333333;
+    letter-spacing: 0;
+}
+
+.room_detail {
+    display: flex;
+    align-items: center;
+    margin-top: 24px;
+    flex-flow: row wrap;
+}
+
+.room_detail div p:first-child,
+.room_address p:first-child {
+    margin: 0;
+    font-size: 12px;
+    color: #666666;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.room_detail div p:last-child,
+.room_address p:last-child {
+    margin: 0;
+    font-size: 16px;
+    color: #333333;
+    letter-spacing: 0;
+    line-height: 24px;
+}
+
+.room_address {
+    margin-top: 24px;
+}
+
+.room_utilities .ultilities {
+    display: flex;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    margin-top: 24px;
+    justify-content: space-between;
+}
+
+.room_utilities .ultilities .item {
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -ms-flex-align: center;
+    align-items: center;
+    width: calc(100% / 4);
+    margin-top: 24px;
+}
+
+.room_note .box_capacity {
+    display: flex;
+    width: 100%;
+}
+
+.room_note .capacity {
+    font-weight: bold;
+    font-size: 20px;
+    color: #333333;
+    letter-spacing: 0;
+    line-height: 28px;
+    margin-top: 24px;
+}
+
+.room_note .box_capacity .item {
+    flex: 1 1;
+}
+
+.room_note .box_capacity .item p {
+    font-size: 12px;
+    color: #666666;
+    letter-spacing: 0;
+}
+
+.room_note .box_capacity .item ._1p {
+    background: #0f88a1;
+    margin-right: 14px;
+}
+
+.room_note .box_capacity .item ._2p {
+    background: #1edb4c;
+    margin-right: 14px;
+}
+
+.room_note .box_capacity .item ._3p {
+    background: #ffab1d;
+}
+
+.room_note .box_capacity .item ._1p,
+.room_note .box_capacity .item ._2p,
+.room_note .box_capacity .item ._3p {
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 8px;
+    height: 38px;
+}
+
+.room_note .box_capacity .item ._1p span,
+.room_note .box_capacity .item ._2p span,
+.room_note .box_capacity .item ._3p span {
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 0;
+    font-weight: bold;
+}
+
+.room_des .des {
+    margin: 0;
+    padding-top: 24px;
+    font-size: 16px;
+    color: #333333;
+    letter-spacing: 0;
+    font-weight: normal;
+    white-space: pre-wrap;
+}
+
+.room_owner {
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: start;
+    justify-content: space-between;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: 24px;
+}
+
+.room_owner img {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    margin-right: 8px;
+}
+
+.room_owner .name_owner {
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding-right: 24px;
+    border-right: 1px solid #cdcdcd;
+}
+.room_owner .name_owner span{
+    margin-bottom: 10px;;
+}
+
+.room_owner .date_post {
+    
+}
+
+.detail_item {
+    width: calc(100% / 4);
+}
+
+.share_btn {
+    margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+    .detail_item,
+    .room_utilities .ultilities .item {
+        width: calc(100% / 2);
+    }
+    .name_home {
+        font-size: 18px;
+        flex-basis: 220px;
+    }
+    .room_owner .name_owner {
+        display: flex;
+        height: 100%;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        align-items: center;
+        border-right: 0;
+    }
+    .room_owner {
+        display: flex;
+        -ms-flex-direction: row;
+        flex-direction: column;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+        -ms-flex-align: center;
+        align-items: center;
+        margin-top: 24px;
+        align-content: center;
+    }
+    .room_owner .date_post {
+        margin-left: 0px;
+        -ms-flex-item-align: end;
+        align-self: center;
+        margin-bottom: 0px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .carousel-item img {
+        height: auto;
+    }
+}
+
+.carousel-item {
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.slider-section {
+    margin-bottom: 50px;
+}
+
+@media (max-width: 600px) {
+    .carousel-item {
+        height: 200px;
+    }
+    .slider-section {
+        margin-bottom: 20px;
+    }
+}
+.banner-header .noidung {
+    display: none;
+}
+.banner-header .container-fluid .row:first-child .col{
+    margin-bottom: 0 !important;
+}
+.banner-header .container-fluid{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+header .header-main{
+    top: 0;
+    visibility: visible;
+    opacity: 1;
+}
+.banner-header{
+    display: none;
+}

@@ -1,0 +1,28 @@
+footer {
+    background-color: #fff;
+}
+
+.footer-1>div,
+.footer-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-1>div {
+    height: 120px;
+}
+
+.footer-1 img {
+    height: 100px;
+}
+
+.footer-2 {
+    height: 60px;
+    border-top: 2px dashed #cecece;
+}
+
+.footer-2 a {
+    color: #000;
+}

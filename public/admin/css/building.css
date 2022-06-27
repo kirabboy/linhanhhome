@@ -1,0 +1,125 @@
+.card-building {
+    border: 1px solid #eee;
+    border-radius: 10px;
+    background: #fff;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.icon-building {
+    height: 45px;
+    width: 45px;
+}
+
+.card-building-header-info {
+    padding-left: 10px;
+}
+
+.card-building p {
+    margin-bottom: 0;
+}
+
+.card-building-header-info p {
+    font-weight: 600;
+}
+
+.text-muted {
+    color: #b5b5c3;
+}
+
+.building-name i {
+    color: #009c7e;
+}
+
+.building-name {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.card-building-progress .progress-bar {
+    font-size: 10px;
+    font-weight: 300;
+    background-image: linear-gradient(90deg, #39aea9, #a2d5ab);
+}
+
+.card-building-progress {
+    padding: 10px 0px;
+}
+
+.icon-card-building-body {
+    height: 38px;
+    width: 38px;
+}
+
+.building-unit-info {
+    padding-left: 10px;
+}
+
+.building-unit-info .unit-number {
+    font-size: 17px;
+    line-height: 1;
+    font-weight: 600;
+    color: #000;
+}
+
+.building-unit-info .unit-label {
+    font-size: 10px;
+    font-weight: 300 !important;
+}
+
+.line-info-building {
+    padding: 10px 0px;
+}
+.page-title a{
+    color: #212529;
+}
+.page-header>.page-header-tool {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.floor .name i {
+    color: #009c7e;
+}
+.room .item{
+    width: 60px;
+    height: 30px;
+    border-radius: 5px;
+    margin-inline: 5px;
+}
+.tooltip-inner { 
+    background-color:#f8f9fa;
+    color: #212529;
+}
+
+[data-placement="top"] + .tooltip > .tooltip-arrow { border-top-color: #f8f9fa;}
+
+[data-placement="right"] + .tooltip > .tooltip-arrow { border-right-color: #f8f9fa;}
+
+[data-placement="bottom"] + .tooltip > .tooltip-arrow {border-bottom-color: #f8f9fa;}
+
+[data-placement="left"] + .tooltip > .tooltip-arrow {border-left-color: #f8f9fa; }
+.tooltip.bs-tooltip-top .tooltip-arrow::before {
+    border-top-color: #f8f9fa;
+  }
+
+  .tooltip.bs-tooltip-bottom .tooltip-arrow::before {
+    border-bottom-color: #f8f9fa;
+  }
+
+  .tooltip.bs-tooltip-start .tooltip-arrow::before {
+    border-left-color: #f8f9fa;
+  }
+
+  .tooltip.bs-tooltip-end .tooltip-arrow::before {
+    border-right-color: #f8f9fa;
+  }
+  .dropdown-toggle::after{
+      display: none;
+  }
+  .building>div{
+      padding-inline: 8px;
+  }
